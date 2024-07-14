@@ -6,5 +6,6 @@ public class Demo{
         int a=sc.nextInt();
         System.out.println("Hi");
         System.out.print(a);
+        
     }
 }
