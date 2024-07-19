@@ -305,51 +305,51 @@ class Assignment{
         // }
 
         //Q20
-        int a=(n+1)/2;
-        for(int i=1;i<=a;i++){
-            for(int k=1;k<=a-i;k++){
-                System.out.print("\t");
-            }
-            for(int j=1;j<=i;j++){
-                if(j==1){
-                    System.out.print("*\t");
-                }
-                else
-                    System.out.print(" \t");
+        // int a=(n+1)/2;
+        // for(int i=1;i<=a;i++){
+        //     for(int k=1;k<=a-i;k++){
+        //         System.out.print("\t");
+        //     }
+        //     for(int j=1;j<=i;j++){
+        //         if(j==1){
+        //             System.out.print("*\t");
+        //         }
+        //         else
+        //             System.out.print(" \t");
 
-            }
-            for(int j=1;j<=i-1;j++){
-                if(j==i-1){
-                    System.out.print("*\t");
-                }
-                else
-                    System.out.print(" \t");
+        //     }
+        //     for(int j=1;j<=i-1;j++){
+        //         if(j==i-1){
+        //             System.out.print("*\t");
+        //         }
+        //         else
+        //             System.out.print(" \t");
                 
-            }
-            System.out.println();
-        }
-        for(int i=a-1;i>=1;i--){
-            for(int k=1;k<=a-i;k++){
-                System.out.print("\t");
-            }
-            for(int j=1;j<=i;j++){
-                if(j==1){
-                    System.out.print("*\t");
-                }
-                else
-                    System.out.print(" \t");
+        //     }
+        //     System.out.println();
+        // }
+        // for(int i=a-1;i>=1;i--){
+        //     for(int k=1;k<=a-i;k++){
+        //         System.out.print("\t");
+        //     }
+        //     for(int j=1;j<=i;j++){
+        //         if(j==1){
+        //             System.out.print("*\t");
+        //         }
+        //         else
+        //             System.out.print(" \t");
 
-            }
-            for(int j=1;j<=i-1;j++){
-                if(j==i-1){
-                    System.out.print("*\t");
-                }
-                else
-                    System.out.print(" \t");
+        //     }
+        //     for(int j=1;j<=i-1;j++){
+        //         if(j==i-1){
+        //             System.out.print("*\t");
+        //         }
+        //         else
+        //             System.out.print(" \t");
                 
-            }
-            System.out.println();
-        }
+        //     }
+        //     System.out.println();
+        // }
 
         //Q21
         // for(int i=1;i<=n;i++){
@@ -549,24 +549,21 @@ class Assignment{
         // }
 
         //Q33
-        // int a=n;
-        // for(int i=1;i<=n;i++){
-        //     for(int k=1;k<=n-i;k++){
-        //         System.out.print("  ");
-        //     }
-        //     for(int j=1;j<=i;j++){
-        //         if (j==i)
-        //             System.out.print("0 ");
-        //         else{
-        //             a--;
-        //             System.out.print(a+" ");
-        //         }
-        //     }
-        //     for(int j=1;j<=i-1;j++){
-        //         int a=n-1;
-        //         System.out.print(a+" ");
-        //     }
-        //     System.out.println();
-        // }
+        for(int i=1;i<=n;i++){
+            for(int k=1;k<=n-i;k++){
+                System.out.print("  ");
+            }
+            for(int j=1;j<=i;j++){
+                if (j==i)
+                    System.out.print("0 ");
+                else{
+                    System.out.print(n-i+j+" ");
+                }
+            }
+            for(int j=2;j<=i;j++){
+                System.out.print(n-j+1+" ");
+            }
+            System.out.println();
+        }
     }
 }
