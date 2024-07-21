@@ -61,7 +61,7 @@ public class Functions{
         return (a==n);
     }
     public static void main(String[] args){
-        // sayHi("Hello Rishabh");
+        // sayHi("Hello");
         // swap(2,5);
         int n=371;
         // printnatural(n);
