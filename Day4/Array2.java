@@ -24,7 +24,7 @@ public class Array2{
     static void printArr(int[] arr){
         for(int i:arr)
          System.out.print(i+" ");
-     }
+    }
  
     //sum of array between 2 values
     static int SumArrb(int[] arr,int a,int b){

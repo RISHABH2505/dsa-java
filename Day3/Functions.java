@@ -63,7 +63,7 @@ public class Functions{
     public static void main(String[] args){
         // sayHi("Hello");
         // swap(2,5);
-        int n=371;
+        int n=121;
         // printnatural(n);
         // System.out.println(checkprime(n));
         System.out.println(checkarmstrong(n));

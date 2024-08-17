@@ -479,29 +479,29 @@ class Assignment{
         // }
 
         //Q29
-        // for(int i=1;i<=n;i++){
-        //     for(int k=1;k<=n-i;k++){
-        //         System.out.print("\t");
-        //     }
-        //     for(int j=1;j<=i;j++){
-        //         if(j==1){
-        //             System.out.print(i+"\t");
-        //         }
-        //         else
-        //             System.out.print("0\t");
+        for(int i=1;i<=n;i++){
+            for(int k=1;k<=n-i;k++){
+                System.out.print("\t");
+            }
+            for(int j=1;j<=i;j++){
+                if(j==1){
+                    System.out.print(i+"\t");
+                }
+                else
+                    System.out.print("0\t");
 
-        //     }
-        //     for(int j=1;j<=i-1;j++){
-        //         int a=1;
-        //         if(j==i-1){
-        //             System.out.print(i+"\t");
-        //         }
-        //         else
-        //             System.out.print("0\t");
+            }
+            for(int j=1;j<=i-1;j++){
+                int a=1;
+                if(j==i-1){
+                    System.out.print(i+"\t");
+                }
+                else
+                    System.out.print("0\t");
                 
-        //     }
-        //     System.out.println();
-        // }
+            }
+            System.out.println();
+        }
 
         //Q30
         // for(int i=1; i<=n;i++){
@@ -548,22 +548,22 @@ class Assignment{
         //     System.out.println();
         // }
 
-        //Q33
-        for(int i=1;i<=n;i++){
-            for(int k=1;k<=n-i;k++){
-                System.out.print("  ");
-            }
-            for(int j=1;j<=i;j++){
-                if (j==i)
-                    System.out.print("0 ");
-                else{
-                    System.out.print(n-i+j+" ");
-                }
-            }
-            for(int j=2;j<=i;j++){
-                System.out.print(n-j+1+" ");
-            }
-            System.out.println();
-        }
+        // //Q33
+        // for(int i=1;i<=n;i++){
+        //     for(int k=1;k<=n-i;k++){
+        //         System.out.print("  ");
+        //     }
+        //     for(int j=1;j<=i;j++){
+        //         if (j==i)
+        //             System.out.print("0 ");
+        //         else{
+        //             System.out.print(n-i+j+" ");
+        //         }
+        //     }
+        //     for(int j=2;j<=i;j++){
+        //         System.out.print(n-j+1+" ");
+        //     }
+        //     System.out.println();
+        // }
     }
 }
