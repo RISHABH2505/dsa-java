@@ -59,9 +59,6 @@ public class assignment{
         }
         return -1;
     }
-    static int fibonacci(int n){
-        
-    }
     public static void main(String[] args){
         int n=101010;
         // System.out.println(countNooftimes(n,3));

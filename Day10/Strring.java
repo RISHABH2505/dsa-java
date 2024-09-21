@@ -12,5 +12,6 @@ public class Strring{
         System.out.println(s4);
         System.out.println(s5);
         System.out.println(c);
+        System.out.println(s1.isEmpty());
     }
 }
